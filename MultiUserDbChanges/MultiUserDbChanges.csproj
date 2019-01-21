@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201901211827276_Initial.Designer.cs">
       <DependentUpon>201901211827276_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901211842253_AddRating.cs" />
+    <Compile Include="Migrations\201901211842253_AddRating.Designer.cs">
+      <DependentUpon>201901211842253_AddRating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201901211848426_Readers.cs" />
     <Compile Include="Migrations\201901211848426_Readers.Designer.cs">
       <DependentUpon>201901211848426_Readers.cs</DependentUpon>
@@ -74,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901211827276_Initial.resx">
       <DependentUpon>201901211827276_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901211842253_AddRating.resx">
+      <DependentUpon>201901211842253_AddRating.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901211848426_Readers.resx">
       <DependentUpon>201901211848426_Readers.cs</DependentUpon>
