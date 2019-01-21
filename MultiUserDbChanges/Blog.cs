@@ -20,6 +20,8 @@ namespace MultiUserDbChanges
         [StringLength(250)]
         public string Url { get; set; }
 
+        public int Rating { get; set; }
+
         [Column(TypeName = "date")]
         public DateTime DateAdded { get; set; }
 
