@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201901211827276_Initial.Designer.cs">
       <DependentUpon>201901211827276_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901211848426_Readers.cs" />
+    <Compile Include="Migrations\201901211848426_Readers.Designer.cs">
+      <DependentUpon>201901211848426_Readers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Program.cs" />
@@ -70,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901211827276_Initial.resx">
       <DependentUpon>201901211827276_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901211848426_Readers.resx">
+      <DependentUpon>201901211848426_Readers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
